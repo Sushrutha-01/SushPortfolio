@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Localeads - Travel Website Portfolio</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+    
+        h1, h2, h3 {
+            color: #333;
+        }    
+        p, li {
+            line-height: 1.6;
+            color: #555;
+        }
+        .container { 
+            width: 100%;
+            max-width: 1000px;
+            background: white;
+            padding: 20px;
+         }
+        .section { margin-bottom: 30px; }
+        
+        ul { padding-left: 20px; }
+
+        .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px; /* Increased spacing */
+}
+.image-container img {
+    width: 45%; /* Slightly smaller */
+    height: auto;
+    border-radius: 10px; /* Optional: for smooth edges */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for better visibility */
+}
+
+        @media (max-width: 768px) {
+    .image-container {
+        grid-template-columns: repeat(1, 1fr); /* One image per row on small screens */
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Localeads - A State-Centric Travel Website</h1>
+        <p><strong>Category:</strong> Web Development | <strong>Technologies:</strong> HTML, CSS, JavaScript, Bootstrap, PHP, MySQL</p>
+
+        <div class="section">
+            <h2>1. Introduction</h2>
+            <p>Localeads is an interactive travel website designed to assist travelers exploring South India. The platform provides state-centric travel information, personalized guides, interactive navigation, and user-generated reviews.</p>
+        </div>
+
+        <div class="section">
+            <h2>2. Problem Statement</h2>
+            <p>Many travelers face difficulties in accessing detailed state-specific information about attractions, guides, and navigation in South India. The absence of a centralized platform results in the following challenges:</p>
+            <ul>
+                <li><span class="highlight">Fragmented Information:</span> Lack of a unified source for state-specific travel data.</li>
+                <li><span class="highlight">Guide Personalization Deficiency:</span> Generic recommendations without personalized options.</li>
+                <li><span class="highlight">Navigation Challenges:</span> Difficulty in finding directions and real-time updates.</li>
+                <li><span class="highlight">User-Generated Review Void:</span> No community-based reviews for travelers.</li>
+                <li><span class="highlight">Limited Social Sharing:</span> No integration for seamless social media sharing.</li>
+                <li><span class="highlight">Lack of Local Insights:</span> No detailed information about hidden gems and cultural experiences.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>3. Scope</h2>
+            <p>The website covers tourist destinations across five South Indian states: Telangana, Andhra Pradesh, Tamil Nadu, Kerala, and Karnataka. Key features include:</p>
+            <ul>
+                <li>User-friendly interface for selecting travel destinations.</li>
+                <li>Detailed information about attractions, activities, and local guides.</li>
+                <li>Integrated maps for route planning and real-time navigation.</li>
+                <li>Live updates on traffic, weather, and other travel factors.</li>
+                <li>User-generated reviews and feedback system.</li>
+                <li>Community-driven experience sharing and interaction.</li>
+                <li>Query system for users to ask questions or report issues.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>4. System Requirements</h2>
+            <h3>4.1 Tools & Technologies</h3>
+            <ul>
+                <li><strong>Front-end:</strong> HTML, CSS, JavaScript, Bootstrap</li>
+                <li><strong>Back-end:</strong> PHP</li>
+                <li><strong>Database:</strong> MySQL</li>
+            </ul>
+
+            <h3>4.2 Hardware & Software Requirements</h3>
+            <ul>
+                <li>Processor: 2.30 GHz</li>
+                <li>RAM: 4GB</li>
+                <li>Operating System: 64-bit</li>
+                <li>Web Server: Apache (via XAMPP)</li>
+                <li>Database Management System: MySQL</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>5. Implementation</h2>
+            <ul>
+                <li>Designed an intuitive home page with a navigation bar and carousel images.</li>
+                <li>Implemented user authentication (login & sign-up system).</li>
+                <li>Created modules for selecting states, guides, and reviews.</li>
+                <li>Integrated Google Maps for navigation.</li>
+                <li>Developed a dynamic user dashboard for travel history and saved places.</li>
+            </ul>
+        </div>
+        <div class="image-container">
+            <img src="ll1.jpg" >
+            <img src="ll2.jpg" ><br><br>
+            <img src="ll3.jpg" >
+            <img src="ll4.jpg" ><br><br>
+            <img src="ll5.jpg" >
+            <img src="ll6.jpg" ><br><br>
+        </div>
+        <div class="section">
+            <h2>6. Testing & Results</h2>
+            <h3>6.1 Functional Testing</h3>
+            <ul>
+                <li>Verified the accuracy of navigation and guide selection.</li>
+                <li>Tested all interactive elements (buttons, dropdowns, search bars).</li>
+            </ul>
+            
+            <h3>6.2 Security & Performance</h3>
+            <ul>
+                <li>Tested login authentication and SQL injection vulnerabilities.</li>
+                <li>Ensured fast loading times and optimized database queries.</li>
+            </ul>
+            
+            <h3>6.3 Cross-Browser & Mobile Compatibility</h3>
+            <ul>
+                <li>Validated performance across Chrome, Firefox, and Safari.</li>
+                <li>Tested mobile responsiveness using Bootstrap.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>7. Conclusion</h2>
+           <p>LocaLeads website provides information about the hidden gems in South India. This platform 
+            offers a user-friendly interface for exploring and participating in diverse local markets. Share the joy 
+            by leaving reviews, making every trip a shared memory. Immerse yourself in the vivid shades of local 
+            experiences, discovering the extraordinary within the ordinary. </p>
+        </div>
+    </div>
+</body>
+</html>

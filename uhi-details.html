@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UHI Analysis Project Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            width: 100%;
+            max-width: 1000px;
+            background: white;
+            padding: 20px;
+            
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        p, li {
+            line-height: 1.6;
+            color: #555;
+        }
+        video {
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 align="center">Urban Heat Island (UHI) Analysis </h1>
+        
+        <h2>1. Introduction</h2>
+        <p>Urban Heat Islands (UHIs) are urban areas that experience higher temperatures than their surrounding rural regions due to human activities, infrastructure, and land use changes...</p>
+        
+        <h2>2. Objectives</h2>
+        <ul>
+            <li>To assess temperature variations in urban and rural areas.</li>
+            <li>To identify key factors contributing to the UHI effect.</li>
+            <li>To analyze historical temperature trends in Delhi from 1989 to 2024.</li>
+            <li>To predict future temperature variations using machine learning.</li>
+            <li>To recommend mitigation strategies to reduce UHI intensity.</li>
+        </ul>
+        
+        <h2>3. Methodology</h2>
+        <h3>3.1 Data Collection</h3>
+        <ul>
+            <li>Satellite Imagery: Landsat 8 thermal infrared data retrieved using Google Earth Engine.</li>
+            <li>Meteorological Data: Temperature, humidity, wind speed from weather stations.</li>
+            <li>Land Use and Vegetation Data: NDVI from remote sensing data.</li>
+            <li>Urban Infrastructure Data: Road networks, building density, and land cover maps.</li>
+        </ul>
+        
+        <h3>3.2 Data Processing and Analysis</h3>
+        <ul>
+            <li>Compared land surface temperature (LST) and UHI metrics over time.</li>
+            <li>Identified trends in temperature variations.</li>
+            <li>Used JavaScript in Google Earth Engine for data processing.</li>
+            <li>Generated heat maps with Green-to-Red gradients.</li>
+        </ul>
+        
+        <video width="90%" height="auto" controls>
+            <source src="uhi.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <figcaption align="center">UHI Analysis in Google Earth Engine (1989-2024)</figcaption>
+
+        
+        
+        <h2>4. Results and Findings</h2>
+        <h3>4.1 Yearly Analysis (1989-2024)</h3>
+        <ul>
+            <li>1989-1990: Moderate temperatures observed.</li>
+            <li>2000-2001: Noticeable UHI intensity increase.</li>
+            <li>2010-2011: Significant rise in LST due to urbanization.</li>
+            <li>2020-2021: Peak UHI levels detected.</li>
+        </ul>
+        <img src="img1.png" width="90%" alt="not found">
+        <img src="img2.png" width="90%" alt="not found">
+        
+        <h3>4.2 Trends Observed</h3>
+        <ul>
+            <li>Increasing UHI intensity over the decades.</li>
+            <li>Correlation between urban growth and rising LST.</li>
+            <li>Heat-prone regions identified.</li>
+        </ul>
+        
+        <h2>5. Effects of Urban Heat Island</h2>
+        <h3>5.1 Public Health Risks</h3>
+        <p>Increased temperatures contribute to health issues such as heat stress, respiratory problems, and heat-related illnesses.
+        </p>
+        <h3>5.2 Environmental Impact</h3>
+        <p>Higher energy consumption due to increased demand for cooling, leading to elevated greenhouse gas emissions. Altered local ecosystems and biodiversity loss due to extreme temperatures.
+        </p>
+        <h3>5.3 Urban Planning Considerations</h3>
+        <p>Need for sustainable urban designs, such as increasing green spaces and reflective materials in construction. Importance of implementing heat mitigation strategies to protect vulnerable populations.
+        </p>
+        <h3>5.4 Future Research Directions</h3>
+        <p> Continued monitoring of land surface temperatures.Development of heat adaptation strategies to enhance urban resilience.
+        </p>
+        
+        <h2>6. Challenges</h2>
+        <ul>
+            <li>Data availability and accuracy.</li>
+            <li>Multiple influencing factors complicate analysis.</li>
+            <li>High computational requirements.</li>
+            <li>Implementation barriers for mitigation strategies.</li>
+        </ul>
+        
+        <h2>7. Mitigation Strategies</h2>
+        <ul>
+            <li>Increase urban greenery.</li>
+            <li>Use cool roofs and reflective materials.</li>
+            <li>Promote sustainable urban planning.</li>
+            <li>Educate communities on UHI effects.</li>
+        </ul>
+        
+        <h2>8. Applications</h2>
+        <ul>
+            <li>Urban planning and sustainable development.</li>
+            <li>Public health and heat-risk assessments.</li>
+            <li>Energy-efficient cooling strategies.</li>
+            <li>Data-driven policy-making.</li>
+        </ul>
+        
+        <h2>9. Future Scope</h2>
+        <ul>
+            <li>Expanding analysis to multiple cities.</li>
+            <li>Integrating IoT sensors for real-time data.</li>
+            <li>Developing AI-driven UHI models.</li>
+            <li>Continuous monitoring for urban resilience.</li>
+        </ul>
+        
+        <h2>10. Tools and Technologies Used</h2>
+        <ul>
+            <li>Google Earth Engine (JavaScript).</li>
+            <li>Python (Pandas, NumPy, Scikit-learn, TensorFlow, Matplotlib).</li>
+            <li>QGIS & ArcGIS for mapping.</li>
+            <li>Weather APIs for real-time data.</li>
+        </ul>
+        
+        <h2>11. Conclusion</h2>
+        <p>Key areas, particularly densely populated and developed regions, exhibit alarming temperature increases, emphasizing the need for targeted interventions.
+            The analysis highlights the relationship between urbanization and rising temperatures, indicating that UHI contributes to increased energy consumption, worsened air quality, and public health challenges.
+            Implementing green infrastructure (urban parks, tree planting) and using reflective materials in construction can help mitigate the UHI effect.
+            </p>
+        
+        
+    </div>
+</body>
+</html>
